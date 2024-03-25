@@ -1,0 +1,7 @@
+name: GUI
+version: '1.0-SNAPSHOT'
+main: org.kingdom.yd.gui.GUI
+api-version: '1.20'
+authors: [YD]
+commands:
+  menu:
