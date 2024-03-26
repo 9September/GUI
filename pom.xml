@@ -52,7 +52,7 @@
   <repositories>
       <repository>
           <id>essentials-releases</id>
-          <url>https://repo.essentialsx.net/#/releases/</url>
+          <url>https://repo.essentialsx.net/releases/</url>
       </repository>
       <repository>
           <id>papermc-repo</id>
