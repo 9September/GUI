@@ -114,14 +114,14 @@ public class MenuCommand implements CommandExecutor {
             }
 
             //evolution
-            ItemStack evolution = new ItemStack(Material.LIGHT_BLUE_STAINED_GLASS_PANE);
-            ItemMeta evolutionMeta = evolution.getItemMeta();
-            evolutionMeta.setDisplayName(ChatColor.WHITE + "전직소");
-            evolutionMeta.setLore(Arrays.asList(ChatColor.GRAY + "좌클릭 시 전직소로 이동합니다."));
-            evolution.setItemMeta(evolutionMeta);
+            ItemStack minigame = new ItemStack(Material.LIGHT_BLUE_STAINED_GLASS_PANE);
+            ItemMeta minigameMeta = minigame.getItemMeta();
+            minigameMeta.setDisplayName(ChatColor.WHITE + "미니게임");
+            minigameMeta.setLore(Arrays.asList(ChatColor.GRAY + "좌클릭 시 미니게임을 오픈합니다."));
+            minigame.setItemMeta(minigameMeta);
 
             for (int i : new int[] {38,47}) {
-                inv.setItem(i,evolution);
+                inv.setItem(i,minigame);
             }
 
             //pvp
@@ -193,25 +193,6 @@ public class MenuCommand implements CommandExecutor {
             player.openInventory(inv);
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         return false;
     }

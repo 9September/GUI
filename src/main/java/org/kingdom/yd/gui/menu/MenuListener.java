@@ -51,9 +51,9 @@ public class MenuListener implements Listener {
                 case 37,46 -> {
                     warp.teleportToWarp(player, "guild");
                 }
-                //evolution
+                //minigame
                 case 38,47 -> {
-                    warp.teleportToWarp(player, "evolution");
+
                 }
                 //pvp
                 case 39,48 -> {
