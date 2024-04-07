@@ -1,4 +1,4 @@
-package org.kingdom.yd.gui.warp;
+package org.kingdom.yd.gui;
 
 import com.earth2me.essentials.api.IWarps;
 import com.earth2me.essentials.commands.WarpNotFoundException;

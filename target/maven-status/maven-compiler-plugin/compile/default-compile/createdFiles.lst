@@ -1,6 +1,3 @@
-org\kingdom\yd\gui\store\StoreListener.class
-org\kingdom\yd\gui\warp\Warp.class
+org\kingdom\yd\gui\Warp.class
 org\kingdom\yd\gui\GUI.class
-org\kingdom\yd\gui\store\StoreCommand.class
-org\kingdom\yd\gui\menu\MenuListener.class
-org\kingdom\yd\gui\menu\MenuCommand.class
+org\kingdom\yd\gui\GUIManager.class
