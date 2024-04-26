@@ -5,3 +5,7 @@ api-version: '1.20'
 authors: [YD]
 commands:
   menu:
+  attendance:
+    usage: /attendance <add|remove|list>
+  level:
+    usage: /level <add|remove|list>

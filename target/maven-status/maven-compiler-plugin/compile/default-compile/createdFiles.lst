@@ -1,3 +1,7 @@
 org\kingdom\yd\gui\Warp.class
 org\kingdom\yd\gui\GUI.class
+org\kingdom\yd\gui\pass\Level.class
+org\kingdom\yd\gui\pass\Attendance.class
 org\kingdom\yd\gui\GUIManager.class
+org\kingdom\yd\gui\pass\AttendanceCommand.class
+org\kingdom\yd\gui\pass\LevelCommand.class
